@@ -2,10 +2,43 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Hello wasm-pack!</title>
+    <title>Basic Emulator</title><!-- not BASIC! -->
   </head>
   <body>
     <noscript>This page contains webassembly and javascript content, please enable javascript in your browser.</noscript>
+    <script src="./core.js"></script>
+    <script src="./lib.js"></script>
+    <script src="./browser.js"></script>
     <script src="./bootstrap.js"></script>
+
+  <script>
+      "use strict";
+
+      window.onload = function()
+      {
+          var emulator = window.emulator = new V86Starter({
+              memory_size: 32 * 1024 * 1024,
+              vga_memory_size: 2 * 1024 * 1024,
+              screen_container: document.getElementById("screen_container"),
+              bios: {
+                  url: "../bios/seabios.bin",
+              },
+              vga_bios: {
+                  url: "../bios/vgabios.bin",
+              },
+              cdrom: {
+                  url: "../images/linux.iso",
+              },
+              autostart: true,
+          });
+      }
+    </script>
+
+    <!-- A minimal structure for the ScreenAdapter defined in browser/screen.js -->
+    <div id="screen_container">
+      <div style="white-space: pre; font: 14px monospace; line-height: 14px"></div>
+      <canvas style="display: none"></canvas>
+    </div>
+
   </body>
 </html>
