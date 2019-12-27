@@ -1,2 +1,2 @@
-import * as wasm from "wasm-game-of-life";
+import * as wasm from "v86-wasm";
 wasm.greet('Martin');
