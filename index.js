@@ -63,6 +63,9 @@ window.Bus = Bus;
 import { VGAScreen } from "./src/vga.js";
 window.VGAScreen = VGAScreen;
 
+import { PS2 } from "./src/ps2.js";
+window.PS2 = PS2;
+
 import * as Log from "./src/log.js";
 window.dbg_log = Log.dbg_log;
 window.dbg_trace = Log.dbg_trace;
