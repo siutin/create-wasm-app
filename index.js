@@ -48,6 +48,9 @@ import './src/misc_instr.js';
 
 import './src/instructions.js';
 
+import { IO } from './src/io.js';
+window.IO = IO;
+
 import { PCI } from "./src/pci.js";
 window.PCI = PCI;
 
