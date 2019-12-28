@@ -1,15 +1,6 @@
 import * as wasm from "v86-wasm";
 wasm.greet('Martin');
 
-import "./vendor/src/elf.js";
-import "./vendor/src/translate.js";
-import { Bus } from "./src/bus.js";
-window.Bus = Bus;
-import * as Log from "./src/log.js";
-window.dbg_log = Log.dbg_log;
-window.dbg_trace = Log.dbg_trace;
-window.dbg_assert = Log.dbg_assert;
-window.dbg_assert_failed = Log.dbg_assert_failed;
 
 import {
     CPU_LOG_VERBOSE,
@@ -29,7 +20,6 @@ window.CPU_EX_Z = CPU_EX_Z
 window.CPU_EX_D = CPU_EX_D
 window.CPU_EX_I = CPU_EX_I
 
-import './src/debug.js';
 import './src/memory.js';
 import './src/state.js';
 import './src/modrm.js';
@@ -57,4 +47,22 @@ import './src/arith.js';
 import './src/misc_instr.js';
 
 import './src/instructions.js';
+
+import { PCI } from "./src/pci.js";
+window.PCI = PCI;
+
+import { Bus } from "./src/bus.js";
+window.Bus = Bus;
+
+import * as Log from "./src/log.js";
+window.dbg_log = Log.dbg_log;
+window.dbg_trace = Log.dbg_trace;
+window.dbg_assert = Log.dbg_assert;
+window.dbg_assert_failed = Log.dbg_assert_failed;
+
+import "./vendor/src/translate.js";
+
+import "./vendor/src/elf.js";
+
+import './src/debug.js';
 

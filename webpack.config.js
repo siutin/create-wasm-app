@@ -22,7 +22,7 @@ module.exports = {
           "vendor/src/lib.js",
           "vendor/src/fpu.js",
           "vendor/src/ide.js",
-          "vendor/src/pci.js",
+          // "vendor/src/pci.js",
           "vendor/src/floppy.js",
           // "vendor/src/memory.js",
           "vendor/src/dma.js",
@@ -37,20 +37,22 @@ module.exports = {
           "vendor/src/apic.js",
           "vendor/src/ioapic.js",
           // "vendor/src/state.js",
+
           "vendor/src/ne2k.js",
           "vendor/src/sb16.js",
           "vendor/src/virtio.js",
-          "vendor/src/bus.js",
-          "vendor/src/log.js",
+          // "vendor/src/bus.js",
+          // "vendor/src/log.js",
+
           // "vendor/src/cpu.js",
-          "vendor/src/translate.js",
+          // "vendor/src/translate.js",
           // "vendor/src/modrm.js",
           // "vendor/src/string.js",
           // "vendor/src/arith.js",
           // "vendor/src/misc_instr.js",
           // "vendor/src/instructions.js",
           // "vendor/src/debug.js",
-          "vendor/src/elf.js"
+          // "vendor/src/elf.js"
         ],
         "lib.js": [
           "vendor/lib/9p.js",
