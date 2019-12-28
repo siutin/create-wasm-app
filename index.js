@@ -60,6 +60,9 @@ window.DMA = DMA;
 import { Bus } from "./src/bus.js";
 window.Bus = Bus;
 
+import { VGAScreen } from "./src/vga.js";
+window.VGAScreen = VGAScreen;
+
 import * as Log from "./src/log.js";
 window.dbg_log = Log.dbg_log;
 window.dbg_trace = Log.dbg_trace;
