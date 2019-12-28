@@ -1,8 +1,6 @@
 import * as wasm from "v86-wasm";
 wasm.greet('Martin');
 
-import { DMA } from './src/dma.js';
-window.DMA = DMA;
 
 import {
     CPU_LOG_VERBOSE,
@@ -52,6 +50,9 @@ import './src/instructions.js';
 
 import { PCI } from "./src/pci.js";
 window.PCI = PCI;
+
+import { DMA } from './src/dma.js';
+window.DMA = DMA;
 
 import { Bus } from "./src/bus.js";
 window.Bus = Bus;
