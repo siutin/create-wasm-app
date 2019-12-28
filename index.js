@@ -1,6 +1,16 @@
 import * as wasm from "v86-wasm";
 wasm.greet('Martin');
 
+import "./vendor/src/elf.js";
+import "./vendor/src/translate.js";
+import { Bus } from "./src/bus.js";
+window.Bus = Bus;
+import * as Log from "./src/log.js";
+window.dbg_log = Log.dbg_log;
+window.dbg_trace = Log.dbg_trace;
+window.dbg_assert = Log.dbg_assert;
+window.dbg_assert_failed = Log.dbg_assert_failed;
+
 import {
     CPU_LOG_VERBOSE,
     CPU,
