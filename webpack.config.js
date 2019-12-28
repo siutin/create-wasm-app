@@ -25,7 +25,7 @@ module.exports = {
           // "vendor/src/pci.js",
           "vendor/src/floppy.js",
           // "vendor/src/memory.js",
-          "vendor/src/dma.js",
+          // "vendor/src/dma.js",
           "vendor/src/pit.js",
           "vendor/src/vga.js",
           "vendor/src/ps2.js",

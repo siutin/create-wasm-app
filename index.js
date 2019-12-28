@@ -1,6 +1,8 @@
 import * as wasm from "v86-wasm";
 wasm.greet('Martin');
 
+import { DMA } from './src/dma.js';
+window.DMA = DMA;
 
 import {
     CPU_LOG_VERBOSE,
