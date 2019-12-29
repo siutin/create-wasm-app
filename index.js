@@ -1,7 +1,6 @@
 import * as wasm from "v86-wasm";
 wasm.greet('Martin');
 
-
 import {
     CPU_LOG_VERBOSE,
     CPU,
@@ -47,6 +46,10 @@ import './src/arith.js';
 import './src/misc_instr.js';
 
 import './src/instructions.js';
+
+
+import { FPU } from './src/fpu.js';
+window.FPU = FPU;
 
 import { IO } from './src/io.js';
 window.IO = IO;
