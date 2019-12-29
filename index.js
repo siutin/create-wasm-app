@@ -51,6 +51,8 @@ import './src/instructions.js';
 import { FPU } from './src/fpu.js';
 window.FPU = FPU;
 
+import { PIC } from "./src/pic.js";
+window.PIC = PIC;
 import { IO } from './src/io.js';
 window.IO = IO;
 

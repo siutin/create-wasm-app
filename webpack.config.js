@@ -29,7 +29,7 @@ module.exports = {
           "vendor/src/pit.js",
           // "vendor/src/vga.js",
           // "vendor/src/ps2.js",
-          "vendor/src/pic.js",
+          // "vendor/src/pic.js",
           "vendor/src/rtc.js",
           "vendor/src/uart.js",
           "vendor/src/hpet.js",
