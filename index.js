@@ -72,6 +72,9 @@ window.PS2 = PS2;
 import { FloppyController } from "./src/floppy.js";
 window.FloppyController = FloppyController;
 
+import { IDEDevice } from './src/ide.js';
+window.IDEDevice = IDEDevice;
+
 import * as Log from "./src/log.js";
 window.dbg_log = Log.dbg_log;
 window.dbg_trace = Log.dbg_trace;

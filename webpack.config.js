@@ -21,7 +21,7 @@ module.exports = {
           "vendor/src/main.js",
           "vendor/src/lib.js",
           // "vendor/src/fpu.js",
-          "vendor/src/ide.js",
+          // "vendor/src/ide.js",
           // "vendor/src/pci.js",
           // "vendor/src/floppy.js",
           // "vendor/src/memory.js",
