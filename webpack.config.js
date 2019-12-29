@@ -18,7 +18,7 @@ module.exports = {
           "vendor/src/const.js",
           "vendor/src/config.js",
           // "vendor/src/io.js",
-          "vendor/src/main.js",
+          // "vendor/src/main.js",
           "vendor/src/lib.js",
           // "vendor/src/fpu.js",
           // "vendor/src/ide.js",

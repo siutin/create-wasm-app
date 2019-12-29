@@ -1,5 +1,7 @@
 import * as wasm from "v86-wasm";
 wasm.greet('Martin');
+import { v86 } from './src/main.js';
+window.v86 = v86;
 
 import {
     CPU_LOG_VERBOSE,
