@@ -99,6 +99,9 @@ window.CMOS_MEM_HIGHMEM_MID  = RTC.CMOS_MEM_HIGHMEM_MID;
 window.CMOS_MEM_HIGHMEM_HIGH  = RTC.CMOS_MEM_HIGHMEM_HIGH;
 window.CMOS_BIOS_SMP_COUNT  = RTC.CMOS_BIOS_SMP_COUNT;
 
+import { UART } from './src/uart.js';
+window.UART = UART;
+
 import { IO } from './src/io.js';
 window.IO = IO;
 

@@ -31,7 +31,7 @@ module.exports = {
           // "vendor/src/ps2.js",
           // "vendor/src/pic.js",
           // "vendor/src/rtc.js",
-          "vendor/src/uart.js",
+          // "vendor/src/uart.js",
           "vendor/src/hpet.js",
           "vendor/src/acpi.js",
           "vendor/src/apic.js",
