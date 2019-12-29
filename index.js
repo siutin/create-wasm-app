@@ -133,6 +133,9 @@ window.FloppyController = FloppyController;
 import { IDEDevice } from './src/ide.js';
 window.IDEDevice = IDEDevice;
 
+import { SB16 } from './src/sb16.js';
+window.SB16 = SB16;
+
 import * as Log from "./src/log.js";
 window.dbg_log = Log.dbg_log;
 window.dbg_trace = Log.dbg_trace;

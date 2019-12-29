@@ -39,7 +39,7 @@ module.exports = {
           // "vendor/src/state.js",
 
           "vendor/src/ne2k.js",
-          "vendor/src/sb16.js",
+          // "vendor/src/sb16.js",
           "vendor/src/virtio.js",
           // "vendor/src/bus.js",
           // "vendor/src/log.js",
