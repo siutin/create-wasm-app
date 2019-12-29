@@ -105,6 +105,10 @@ window.UART = UART;
 import { ACPI } from './src/acpi.js';
 window.ACPI = ACPI;
 
+import { APIC, APIC_LOG_VERBOSE } from './src/apic.js';
+window.APIC = APIC;
+window.APIC_LOG_VERBOSE = APIC_LOG_VERBOSE;
+
 import { IO } from './src/io.js';
 window.IO = IO;
 

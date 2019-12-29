@@ -34,7 +34,7 @@ module.exports = {
           // "vendor/src/uart.js",
           "vendor/src/hpet.js",
           // "vendor/src/acpi.js",
-          "vendor/src/apic.js",
+          // "vendor/src/apic.js",
           "vendor/src/ioapic.js",
           // "vendor/src/state.js",
 
