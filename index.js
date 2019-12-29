@@ -102,6 +102,9 @@ window.CMOS_BIOS_SMP_COUNT  = RTC.CMOS_BIOS_SMP_COUNT;
 import { UART } from './src/uart.js';
 window.UART = UART;
 
+import { ACPI } from './src/acpi.js';
+window.ACPI = ACPI;
+
 import { IO } from './src/io.js';
 window.IO = IO;
 
