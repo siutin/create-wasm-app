@@ -23,7 +23,7 @@ module.exports = {
           "vendor/src/fpu.js",
           "vendor/src/ide.js",
           // "vendor/src/pci.js",
-          "vendor/src/floppy.js",
+          // "vendor/src/floppy.js",
           // "vendor/src/memory.js",
           // "vendor/src/dma.js",
           "vendor/src/pit.js",
