@@ -188,6 +188,5 @@ window.V86Starter = V86Starter;
 import { WorkerBus } from './src/browser/worker_bus.js';
 window.WorkerBus = WorkerBus;
 
-// const fs = require('fs');
 import browserLibV86util from './src/browser/lib.js';
 window.v86util = Object.assign(window.v86util, browserLibV86util)
