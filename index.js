@@ -1,5 +1,22 @@
 import * as wasm from "v86-wasm";
 wasm.greet('Martin');
+
+import { 
+    v86util, 
+    SyncBuffer, 
+    h, 
+    ByteQueue, 
+    FloatQueue,
+    CircularQueue,
+    
+ } from './src/lib.js';
+window.v86util = v86util;
+window.SyncBuffer = SyncBuffer;
+window.h = h;
+window.ByteQueue = ByteQueue;
+window.FloatQueue = FloatQueue;
+window.CircularQueue = CircularQueue;
+
 import { v86 } from './src/main.js';
 window.v86 = v86;
 
@@ -172,4 +189,5 @@ import { WorkerBus } from './src/browser/worker_bus.js';
 window.WorkerBus = WorkerBus;
 
 // const fs = require('fs');
-import './src/browser/lib.js';
+import browserLibV86util from './src/browser/lib.js';
+window.v86util = Object.assign(window.v86util, browserLibV86util)

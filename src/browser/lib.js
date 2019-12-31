@@ -1,18 +1,18 @@
 "use strict";
 
+var v86util = v86util || {}
+
 /** @const */
 var ASYNC_SAFE = false;
 
-(function()
-{
-    if(typeof XMLHttpRequest === "undefined")
-    {
-        // v86util.load_file = load_file_nodejs;
-    }
-    else
-    {
+    // if(typeof XMLHttpRequest === "undefined")
+    // {
+    //     v86util.load_file = load_file_nodejs;
+    // }
+    // else
+    // {
         v86util.load_file = load_file;
-    }
+    // }
 
     v86util.AsyncXHRBuffer = AsyncXHRBuffer;
     v86util.AsyncFileBuffer = AsyncFileBuffer;
@@ -606,4 +606,4 @@ var ASYNC_SAFE = false;
         return file;
     };
 
-})();
+    export default v86util
