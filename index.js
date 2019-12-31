@@ -150,3 +150,26 @@ import "./vendor/src/elf.js";
 
 import './src/debug.js';
 
+
+// ------------------------ browser  -----------------------------
+
+import { ScreenAdapter } from './src/browser/screen.js';
+window.ScreenAdapter = ScreenAdapter;
+
+import { KeyboardAdapter } from './src/browser/keyboard.js';
+window.KeyboardAdapter = KeyboardAdapter;
+
+import { MouseAdapter } from './src/browser/mouse.js';
+window.MouseAdapter = MouseAdapter;
+
+import { SpeakerAdapter } from './src/browser/speaker.js';
+window.SpeakerAdapter = SpeakerAdapter;
+
+import { V86Starter } from './src/browser/starter.js';
+window.V86Starter = V86Starter;
+
+import { WorkerBus } from './src/browser/worker_bus.js';
+window.WorkerBus = WorkerBus;
+
+// const fs = require('fs');
+import './src/browser/lib.js';

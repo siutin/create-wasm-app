@@ -62,16 +62,16 @@ module.exports = {
           "vendor/lib/utf8.js"
         ],
         "browser.js": [
-          "vendor/src/browser/screen.js",
-          "vendor/src/browser/keyboard.js",
-          "vendor/src/browser/mouse.js",
-          "vendor/src/browser/speaker.js",
-          "vendor/src/browser/serial.js",
-          "vendor/src/browser/network.js",
-          "vendor/src/browser/lib.js",
-          "vendor/src/browser/starter.js",
-          "vendor/src/browser/worker_bus.js",
-          "vendor/src/browser/dummy_screen.js"
+          // "vendor/src/browser/screen.js",
+          // "vendor/src/browser/keyboard.js",
+          // "vendor/src/browser/mouse.js",
+          // "vendor/src/browser/speaker.js",
+          // "vendor/src/browser/serial.js",
+          // "vendor/src/browser/network.js",
+          // "vendor/src/browser/lib.js",
+          // "vendor/src/browser/starter.js",
+          // "vendor/src/browser/worker_bus.js",
+          // "vendor/src/browser/dummy_screen.js"
         ]
       }
 })
