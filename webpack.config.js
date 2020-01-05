@@ -15,8 +15,8 @@ module.exports = {
     new MergeIntoSingleFilePlugin({
       files: {
         "core.js": [
-          "vendor/src/const.js",
-          "vendor/src/config.js",
+          // "vendor/src/const.js",
+          // "vendor/src/config.js",
           // "vendor/src/io.js",
           // "vendor/src/main.js",
           // "vendor/src/lib.js",
